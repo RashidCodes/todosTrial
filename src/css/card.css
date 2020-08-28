@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500&display=swap');
+
+body{
+    width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.card{
+    background-color: #fafafa;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 2rem;
+}
+
+.bullet{
+    border-radius: 50%;
+    background-color: #000;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px 0.25rem 2px;
+}
+
+.word{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.heading{
+    margin-bottom: 2px;
+}
+
+.kind{
+    margin-top: 5px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+}
+
+.meaning{
+    font-family: 'Lato', sans-serif;
+}
+
+.learn-more{
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
