@@ -15,6 +15,8 @@ function App() {
 
   function handleClick(){
     setTodos([...todos, { job, day }])
+    setJob('')
+    setDay('')
   }
 
   return (
@@ -26,10 +28,13 @@ function App() {
       day={day}
       handleClick={handleClick} />
 
+      {
+        todos.length !== 0 ? 
+        todos.map(({job, day}) => (<Card job={job} day={day} />)) : 
+        <p style={{textAlign: 'center', margin: '2rem'}}>There are no todos to display</p>
+      }
 
-      {todos.map(({job, day}) => (
-        <Card job={job} day={day} />
-      ))}
+    
     </div>
   );
 }

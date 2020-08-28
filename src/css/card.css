@@ -4,6 +4,7 @@ body{
     width: 720px;
     margin: 0 auto;
     overflow: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -32,6 +33,7 @@ body{
 .heading{
     margin-bottom: 2px;
 }
+
 
 .kind{
     margin-top: 5px;
